@@ -13,7 +13,3 @@ class PostList extends Component {
 
 export default connect(null, { fetchPosts })(PostList);
 
-const myObject = {hello: 'world'}
-console.log(myObject)
-
-console.log({})
